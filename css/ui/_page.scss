@@ -1,4 +1,48 @@
-html{
-	font-family: sans-serif;
-	padding-top:100px;	
+body{
+	padding: 20px;
+	color: $brand-color;
+	font-family: $brand-face;
+}
+
+.grid, .grid__item {
+	padding: 10px;
+	margin: 0;
+}
+
+.grid__item {
+	float: right;
+}
+
+
+
+.one-whole {
+	background-color: lighten($brand-color, 40%);
+}
+
+.three-quarters {
+	background-color: lighten($brand-color, 30%);
+}
+
+.one-half {
+	background-color: lighten($brand-color, 20%);
+}
+
+.one-quarter {
+	background-color: lighten($brand-color, 10%);
+}
+
+.invisible {
+	background-color: transparent;
+	}
+
+
+p, h1, h2 {
+	margin: 0;
+}
+	h1{
+		text-align: center;
+	}
+
+h2, p {
+	display: inline-block;
 }

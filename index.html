@@ -4,13 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     
-    <title>Welcome to responsive</title>
+    <title>Internet Reference Model</title>
     
-    <link rel="stylesheet" href="css/responsive.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-<h1>Responsive Test</h1>
-    
+
+	<h1>Internet Reference Model</h1>
+
+	<h2>Aplication layer </h2>
+    <div class="grid">
+		<div class="grid__item one-whole invisible">
+        	<div class="grid__item three-quarters invisible">
+           		<div class="grid__item one-half invisible">
+           			<div class="grid__item one-quarter">
+           				<p>HTTP</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h2>Transport layer</h2>
+    <div class="grid">
+		<div class="grid__item one-whole invisible">
+        	<div class="grid__item three-quarters invisible">
+           		<div class="grid__item one-half">
+           			<p>TCP</p>
+           			<div class="grid__item one-quarter">
+           				<p>HTTP</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<h2>Internet layer</h2>
+    <div class="grid">
+		<div class="grid__item one-whole invisible">
+        	<div class="grid__item three-quarters">
+           		<p>IP</p>
+           		<div class="grid__item one-half">
+           			<p>TCP</p>
+           			<div class="grid__item one-quarter">
+           				<p>HTTP</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<h2>Link layer</h2>
+	<div class="grid">
+		<div class="grid__item one-whole">
+        	<p>802.11</p>
+			<div class="grid__item three-quarters">
+           		<p>IP</p>
+				<div class="grid__item one-half">
+           			<p>TCP</p>
+           			<div class="grid__item one-quarter">
+           				<p>HTTP</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>

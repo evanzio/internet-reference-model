@@ -5,8 +5,9 @@
 
 # No minification
 #sass --watch style.scss:style.css --style expanded
-cd ~/evanzio/responsive/css
-sass --watch responsive.scss:responsive.min.css --style compressed
+cd ~/evanzio/internetReferenceModel/css/
+
+sass --watch style.scss:style.min.css --style compressed
 
 
 exit 0
